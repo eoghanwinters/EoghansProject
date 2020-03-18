@@ -5,4 +5,4 @@ RUN apt-get install -y python-pip
 COPY . .
 RUN pip install -r requirements.txt
 EXPOSE 5000
-CMD [ "python", "run.py" ]
+CMD [ "python3", "run.py" ]
